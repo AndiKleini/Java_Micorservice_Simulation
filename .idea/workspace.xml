@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f91747ba-5002-4008-a5cb-9b55d6d84f8b" name="Default Changelist" comment="Change gitignore and add modules.xml">
-      <change afterPath="$PROJECT_DIR$/Java_Micorservice_Simulation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f91747ba-5002-4008-a5cb-9b55d6d84f8b" name="Default Changelist" comment="add data classed for sell operation.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/BookMoneyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BookMoneyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SellTicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SellTicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/messagebus/BookMoneyMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/messagebus/BookMoneyMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/messagebus/MoneyBookedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/messagebus/MoneyBookedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/messagebus/MoneyBookedFailedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/messagebus/MoneyBookedFailedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/messagebus/SellTicketMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/messagebus/SellTicketMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/messagebus/TicketSoldEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/messagebus/TicketSoldEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/messagebus/TicketSoldFailedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/messagebus/TicketSoldFailedEvent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +44,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,6 +58,7 @@
       <workItem from="1632058728312" duration="234000" />
       <workItem from="1632059092856" duration="42000" />
       <workItem from="1632059672408" duration="214000" />
+      <workItem from="1632060042631" duration="2283000" />
     </task>
     <task id="LOCAL-00001" summary="Change gitignore and add modules.xml">
       <created>1632058818207</created>
@@ -90,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change gitignore and add modules.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change gitignore and add modules.xml" />
+    <MESSAGE value="add data classed for sell operation." />
+    <option name="LAST_COMMIT_MESSAGE" value="add data classed for sell operation." />
   </component>
 </project>

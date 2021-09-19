@@ -13,6 +13,10 @@ public class Main {
         var bookMoneyService = new BookMoneyService(messageBus);
 
         // trigger the sell of a ticket
-        messageBus.publish(new SellTicketMessage());
+        System.out.println("Sell Metallica ticket for Andreas_Kleibichler_12");
+        messageBus.publish(new SellTicketMessage(12.5, "Metallica", "Andreas_Kleinbichler_12"));
+
+        System.out.println("Sell Iron Maiden ticket for Robert_Superbowl_1");
+        messageBus.publish(new SellTicketMessage(12.5, "MIron Maiden", "Robert_Superbowl_1"));
     }
 }
