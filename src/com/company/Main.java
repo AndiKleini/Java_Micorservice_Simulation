@@ -11,6 +11,7 @@ public class Main {
 	    var messageBus = new MessageBusSimulator();
         var sellTicketService = new SellTicketService(messageBus);
         var bookMoneyService = new BookMoneyService(messageBus);
+        var notifyAboutTicketSellService = new TicketSoldToEmployeeNotificationService(messageBus);
 
         // trigger the sell of a ticket
         System.out.println("Sell Metallica ticket for Andreas_Kleibichler_12");

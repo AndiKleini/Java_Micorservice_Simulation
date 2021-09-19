@@ -19,8 +19,8 @@ public class SellTicketService extends ServiceBase {
                     new BookMoneyMessage(
                             sellTicketMessage.getPrize(),
                             this.getAccountToEmployee(sellTicketMessage.getEmployeeId()),
-                            sellTicketMessage.getEmployeeId(),
-                            sellTicketMessage.getName()));
+                            sellTicketMessage.getName(),
+                            sellTicketMessage.getEmployeeId()));
         }
 
         if (message instanceof MoneyBookedEvent moneyBookedEvent) {
